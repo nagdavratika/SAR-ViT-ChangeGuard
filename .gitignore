@@ -1,0 +1,27 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Model checkpoints & weights
+*.pt
+*.pth
+*.onnx
+*.safetensors
+
+# Data & GIS files
+*.tif
+*.tiff
+*.gpkg
+*.geojson
+*.shp
+
+# Virtual env & IDEs
+venv/
+env/
+.env
+.vscode/
+.idea/
+.ipynb_checkpoints
+.DS_Store
